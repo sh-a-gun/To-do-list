@@ -1,0 +1,150 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff1f6;
+  color: #a24c65;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo-container {
+  background-color: #ffe9f3;
+  padding: 30px;
+  border-radius: 20px;
+  border: 2px solid #f5aac8;
+  box-shadow: 0 12px 30px rgba(255, 170, 200, 0.25);
+  max-width: 700px;
+  width: 100%;
+  margin: 60px auto;
+  box-sizing: border-box;
+}
+
+
+p {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #d63384;
+  text-align: center;
+}
+
+.todo-input-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 12px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.name-input,
+.due-date-input {
+  font-size: 16px;
+  padding: 12px 16px;
+  border: 1px solid #f5aac8;
+  border-radius: 25px;
+  outline: none;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(255, 192, 203, 0.1);
+  color: #a24c65;
+}
+
+.add-todo-button {
+  background-color: #ff85b3;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  box-shadow: 0 6px 16px rgba(255, 128, 171, 0.3);
+  transition: all 0.3s ease;
+}
+
+.add-todo-button:hover {
+  background-color: #ff9fc7;
+  transform: scale(1.05);
+}
+
+.todo-item {
+  background-color: white;
+  border: 1px solid #f9c3d8;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(255, 170, 200, 0.1);
+  padding: 15px;
+  display: grid;
+  grid-template-columns: auto 1fr auto auto auto;
+  gap: 10px;
+  align-items: center;
+  color: #a24c65;
+}
+
+.todo-item.completed div.name {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.delete-button,
+.edit-button,
+.save-button {
+  color: white;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.delete-button {
+  background-color: #f67280;
+}
+
+.delete-button:hover {
+  background-color: #fc8c9e;
+}
+
+.edit-button {
+  background-color: #f78fb3;
+}
+
+.edit-button:hover {
+  background-color: #ffacc8;
+}
+
+.save-button {
+  background-color: #f7aef8;
+}
+
+.save-button:hover {
+  background-color: #fcd6fa;
+}
+
+.checkbox {
+  transform: scale(1.4);
+  cursor: pointer;
+  accent-color: #ff7aa2;
+}
+
+.filter-buttons {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.filter-btn {
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: 1px solid #f5aac8;
+  background-color: #ffe4ee;
+  color: #a24c65;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background-color: #ffd1e6;
+}
