@@ -12,7 +12,7 @@ A simple and stylish **To-Do List** web application made using **HTML**, **CSS**
 
 ## 📸 Screenshots
 
-![Screenshot](images/todo-screenshot.png)
+![Screenshot](images/todo-screenshot.png.png)
 
 ## 🛠️ Tech Stack
 
