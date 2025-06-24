@@ -10,9 +10,6 @@ A simple and stylish **To-Do List** web application made using **HTML**, **CSS**
 - Tasks displayed in a neat, organized list
 - All tasks stored in memory (JavaScript array)
 
-## 📸 Screenshots
-
-![Screenshot](images/todo-screenshot.png.png)
 
 ## 🛠️ Tech Stack
 
@@ -23,7 +20,7 @@ A simple and stylish **To-Do List** web application made using **HTML**, **CSS**
 
 ## 🌐 Live Demo
 
-👉 **[Click here to view the live app](https://shagunn29.github.io/todo-list/)**
+👉 **[Click here to view the live app](https://shagunn29.github.io/my-todo-app/)**
 
 
 ## 📁 Folder Structure
