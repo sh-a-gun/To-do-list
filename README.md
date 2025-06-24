@@ -1,6 +1,6 @@
 # ✅ To-Do List Web App
 
-A simple and stylish **To-Do List** web application made using **HTML**, **CSS**, and **JavaScript**. Easily manage your daily tasks with an intuitive user interface.
+A simple bubble ui style and cute **To-Do List** web application made using **HTML**, **CSS**, and **JavaScript**. Easily manage your daily tasks with an intuitive user interface.
 
 ## 🌟 Features
 
@@ -13,9 +13,9 @@ A simple and stylish **To-Do List** web application made using **HTML**, **CSS**
 
 ## 🛠️ Tech Stack
 
-- **HTML5** – Markup structure
-- **CSS3** – Styling and layout
-- **JavaScript (Vanilla)** – App logic and interactivity
+- **HTML**
+- **CSS** 
+- **JavaScript**
 
 
 ## 🌐 Live Demo
@@ -27,9 +27,9 @@ A simple and stylish **To-Do List** web application made using **HTML**, **CSS**
 
 ```
 todo-list/
-├── index.html # Main HTML file
-├── todo.css # Styles for the to-do app
-└── todo.js # JavaScript functionality
+├── index.html 
+├── todo.css
+└── todo.js
 ```
 
 
