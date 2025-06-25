@@ -10,6 +10,10 @@ A simple bubble ui style and cute **To-Do List** web application made using **HT
 - Tasks displayed in a neat, organized list
 - All tasks stored in memory (JavaScript array)
 
+## 📸 Demo Screenshot
+
+![Todo List Screenshot](images/todo-screenshot.png.png)
+
 
 ## 🛠️ Tech Stack
 
