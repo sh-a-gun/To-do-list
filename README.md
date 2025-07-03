@@ -24,7 +24,7 @@ A simple bubble ui style and cute **To-Do List** web application made using **HT
 
 ## 🌐 Live Demo
 
-👉 **[Click here to view the live app](https://shagunn29.github.io/my-todo-app/)**
+👉 **[Click here to view the live app](https://sh-a-gun.github.io/To-do-list/)**
 
 
 ## 📁 Folder Structure
